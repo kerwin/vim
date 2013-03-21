@@ -49,8 +49,10 @@ let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModSelTarget = 1
 let g:miniBufExplSplitBelow = 0
 map <Leader>c :MiniBufExplorer<cr>
-map <C-d> :bp<cr>
 map <C-f> :bn<cr>
+
+map <C-n> <HOME>
+map <C-m> <END>
 
 " tasklist
 map T :TaskList<cr>
