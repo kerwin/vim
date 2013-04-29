@@ -19,6 +19,11 @@ set mouse=a
 " Set the default file encoding to UTF-8: 
 set encoding=utf-8
 
+nnoremap <silent> <C-Right> <c-w>l
+nnoremap <silent> <C-Left> <c-w>h
+nnoremap <silent> <C-Up> <c-w>k
+nnoremap <silent> <C-Down> <c-w>j
+
 " quick search
 " use # or *
 
