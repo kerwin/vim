@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 syntax on
 set background=dark
 "colorscheme somescheme 
@@ -19,10 +21,17 @@ set mouse=a
 " Set the default file encoding to UTF-8: 
 set encoding=utf-8
 
-nnoremap <silent> <C-Right> <c-w>l
-nnoremap <silent> <C-Left> <c-w>h
-nnoremap <silent> <C-Up> <c-w>k
-nnoremap <silent> <C-Down> <c-w>j
+" keyboard shortcuts
+let mapleader = ','
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+nmap <leader>a :Ack<space>
+nmap <leader>b :CtrlPBuffer<CR>
+nmap <leader>d :NERDTreeToggle<CR>
+nmap <leader>f :CtrlP<CR>
+nmap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 
 " quick search
 " use # or *
@@ -39,7 +48,7 @@ nnoremap <silent> <C-Down> <c-w>j
 " Press F2 (toggles the 'paste' option on).
 " Use your terminal to paste text from the clipboard.
 " Press F2 (toggles the 'paste' option off). 
-set pastetoggle=<F2>
+set pastetoggle=<leader>p
 
 " http://unix.stackexchange.com/questions/12535/how-to-copy-text-from-vim-to-an-external-program
 nnoremap <C-y> "+y
