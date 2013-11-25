@@ -108,7 +108,7 @@ let g:winManagerWindowLayout = 'FileExplorer|TagList'
 nmap wv :WMToggle<cr>
 
 " autocorrect
-:source ~/.vim/autocorrect/autocorrect.vim
+" :source ~/.vim/autocorrect/autocorrect.vim
 
 " ctag
 map <leader>ctags :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q . -I<cr>
