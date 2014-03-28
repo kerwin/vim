@@ -114,26 +114,27 @@ nmap wv :WMToggle<cr>
 map <leader>ctags :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q . -I<cr>
 map <leader>ptags :!ctags -R .<cr>
 
-" code fold
-" use 'za'
-set foldmethod=indent
-set foldlevel=99
-
-" 'ff' 'zfit' and 'af up down'
-let g:FoldMethod = 1
-map <leader>ff :call ToggleFold()<cr>
-fun! ToggleFold()
-    if g:FoldMethod == 0
-	exe 'set foldmethod=indent'
-	    let g:FoldMethod = 1
-    else
-	exe 'set foldmethod=marker'
-	    let g:FoldMethod = 0
-    endif
-endfun
+" " code fold
+nnoremap <space> za
+" " use 'za'
+" set foldmethod=indent
+" set foldlevel=99
+" 
+" " 'ff' 'zfit' and 'af up down'
+" let g:FoldMethod = 1
+" map <leader>ff :call ToggleFold()<cr>
+" fun! ToggleFold()
+"     if g:FoldMethod == 0
+" 	exe 'set foldmethod=indent'
+" 	    let g:FoldMethod = 1
+"     else
+" 	exe 'set foldmethod=marker'
+" 	    let g:FoldMethod = 0
+"     endif
+" endfun
 
 " pyflake
-let g:pyflakes_use_quickfix = 1
+" let g:pyflakes_use_quickfix = 1
 
 " Turn on line numbers:
 set number
