@@ -21,6 +21,9 @@ set mouse=a
 " Set the default file encoding to UTF-8: 
 set encoding=utf-8
 
+" Fix screen issue
+let g:NERDTreeDirArrows=0
+
 " keyboard shortcuts
 let mapleader = ','
 map <C-h> <C-w>h
