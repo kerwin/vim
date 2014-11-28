@@ -21,6 +21,8 @@ set mouse=a
 " Set the default file encoding to UTF-8: 
 set encoding=utf-8
 
+let g:go_disable_autoinstall = 0
+
 " Fix screen issue
 let g:NERDTreeDirArrows=0
 
