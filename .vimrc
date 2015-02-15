@@ -22,6 +22,7 @@ set mouse=a
 set encoding=utf-8
 
 let g:go_disable_autoinstall = 0
+let g:go_fmt_autosave = 0
 
 " Fix screen issue
 let g:NERDTreeDirArrows=0
