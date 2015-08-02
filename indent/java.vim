@@ -149,14 +149,14 @@ unlet s:keepcpo
 
 " vi: sw=2 et
 
-set tabstop=2
+set tabstop=4
 " Set shiftwidth to control how many columns text is indented with the reindent
 " operations (<< and >>) and automatic C-style indentation. 
-set shiftwidth=2
+set shiftwidth=4
 " Set softtabstop to control how many columns vim uses when you hit Tab in
 " insert mode. If softtabstop is less than tabstop and expandtab is not set,
 " vim will use a combination of tabs and spaces to make up the desired
 " spacing. If softtabstop equals tabstop and expandtab is not set, vim will
 " always use tabs. When expandtab is set, vim will always use the appropriate
 " number of spaces. 
-set softtabstop=2
+set softtabstop=4
