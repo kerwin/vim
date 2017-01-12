@@ -71,8 +71,8 @@ let g:miniBufExplSplitBelow = 0
 map <Leader>c :MiniBufExplorer<cr>
 map <C-f> :bn<cr>
 
-map <C-n> <HOME>
-map <C-m> <END>
+map <C-a> <HOME>
+map <C-e> <END>
 
 " tasklist
 map T :TaskList<cr>
