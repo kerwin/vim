@@ -233,3 +233,5 @@ set expandtab
 
 " csupport plugin
 " http://lug.fh-swf.de/vim/vim-doc/csupport.html
+
+set fileformats=unix
